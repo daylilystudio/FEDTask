@@ -2,7 +2,6 @@
   "name": "fedtask",
   "version": "0.0.0",
   "private": true,
-  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -17,8 +16,10 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",
     "eslint": "^8.57.0",
+    "eslint-config-standard": "^17.0.0",
     "eslint-plugin-vue": "^9.23.0",
     "gh-pages": "^6.1.1",
-    "vite": "^5.2.8"
+    "vite": "^5.2.8",
+    "vite-plugin-require-transform": "^1.0.21"
   }
 }

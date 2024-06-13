@@ -1,5 +1,3 @@
-// place at : /ghpages.js
-// you can see more info at https://github.com/tschaub/gh-pages
 const ghpages = require('gh-pages')
 
 const options = {
